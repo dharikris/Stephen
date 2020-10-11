@@ -7,9 +7,8 @@ export default class extends SteveCommand {
 
 	public constructor(store: CommandStore, file: string[], directory: string) {
 		super(store, file, directory, {
-			description: `Have ${NAME} toss a coin for you.`,
 			aliases: ['headsortails'],
-			usage: '<thing:string>',
+			description: `Have ${NAME} toss a coin for you.`,
 		});
 	}
 
